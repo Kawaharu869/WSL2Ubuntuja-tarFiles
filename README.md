@@ -1,0 +1,2 @@
+# WSL2Ubuntuja-tarFiles
+WSL2での日本語Ubuntu環境のtarファイル
