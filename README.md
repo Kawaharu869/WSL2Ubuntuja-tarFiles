@@ -21,5 +21,5 @@ Windowsにダウンロードしてきてください
 ## デスクトップ環境の起動方法
 Ubuntuのtarファイルでxfce4等のデスクトップ環境を選択した方へ向けてですが...  
 Windows11のほうに標準で入っている「リモートデスクトップ接続」を使用します  
-XRDPのIDは「localhost:3390」になります。
-良いWSL2Ubuntuライフを
+XRDPのIDは「localhost:3390」になります。  
+良いWSL2Ubuntuライフを!
