@@ -11,9 +11,16 @@ WSL2環境で構築された日本語化されたUbuntu-24.04LTSのtarファイ�
 そして、ubuntucui.tar(CUIのみ)とubuntuxfce.tar(XFCE4デスクトップ環境)等から選んで、  
 ファイルをダウンロードしてきてください  
 
-## Ubuntuのインストール方法
+## WSL2のインストール  
+WSL2をインストールしないとWindowsにUbuntuをインストールする事はできません！  
+なのでWSL2をインストールしていきましょう！  
+まず、管理者権限のPowerShellで、下記のコマンドを実行してください  
+`` Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux ``   
+そしたら、Windowsを再起動しましょう  
+  
+## Ubuntuのインストール
 Ubuntuをインストールしていきましょう  
-WSL2をインストールしていない方はGoogle等で検索してきてください  
+WSL2をインストールしていない方は前のステップでインストールしてきてください   
 WSL2をインストールしてきたら、まず以下のコマンドをcmdで実行してください  
 `` wsl --update ``   
 実行したら、cmdでtarファイルをダウンロードしたフォルダに移動して、以下コマンドを実行してください  
